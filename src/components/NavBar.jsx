@@ -29,7 +29,7 @@ const NavBar = () => {
       toast.success("Signed out successfully");
       navigate("/");
     } catch (error) {
-      console.log(error, "An error occured while signing out");
+      console.log(error, "An error occured while signing out!");
     }
   };
 
